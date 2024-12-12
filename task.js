@@ -8,7 +8,7 @@ while (password !== "123" && attempts < 5) {
 }
 
 if (password === "123") {
-  alert("Welcome, ${username}");
+  alert('Welcome, ${username}');
 } else {
   alert("Please try again later.");
 }
